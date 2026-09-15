@@ -1,0 +1,17 @@
+# Go binary (built via `make`)
+/revimg
+
+# Frontend build outputs (rebuilt via `make`)
+frontend/dist/
+frontend/.svelte-kit/
+frontend/build/
+
+# Dependencies (restored via `bun install`)
+frontend/node_modules/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
